@@ -1,0 +1,32 @@
+SQLError: 'Error #3132: Data type mismatch.', details:'', operation:'execute'
+	at flash.data::SQLStatement/internalExecute()
+	at flash.data::SQLStatement/execute()
+	at com.moinee.crtapp.core::XmlSqlUtil$/updateEntriesInCarrierApp()[E:\ADOBE FLASH PROJECTS\SmartServerAppQA\src\com\moinee\crtapp\core\XmlSqlUtil.as:423]
+	at com.moinee.crtapp.views::StartUp/updateOnlineUsageServerAckSrv_resultHandler()[E:\ADOBE FLASH PROJECTS\SmartServerAppQA\src\com\moinee\crtapp\views\StartUp.mxml:687]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at HTTPOperation/http://www.adobe.com/2006/flex/mx/internal::dispatchRpcEvent()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\http\HTTPService.as:993]
+	at mx.rpc::AbstractInvoker/http://www.adobe.com/2006/flex/mx/internal::resultHandler()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\AbstractInvoker.as:318]
+	at mx.rpc::Responder/result()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\Responder.as:56]
+	at mx.rpc::AsyncRequest/acknowledge()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\AsyncRequest.as:84]
+	at DirectHTTPMessageResponder/completeHandler()[E:\dev\4.y\frameworks\projects\rpc\src\mx\messaging\channels\DirectHTTPChannel.as:451]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.net::URLLoader/onComplete()
+	
+	-------------------------
+SQLError: 'Error #3119: Database file is currently locked.', details:'', operation:'execute'
+	at flash.data::SQLStatement/internalExecute()
+	at flash.data::SQLStatement/execute()
+	at com.moinee.crtapp.core::XmlSqlUtil$/insertNewSchoolEntryIntoSmartTable()[E:\ADOBE FLASH PROJECTS\SmartServerAppQA\src\com\moinee\crtapp\core\XmlSqlUtil.as:491]
+	at com.moinee.crtapp.views::StartUp/getMacDataSrv_resultHandler()[E:\ADOBE FLASH PROJECTS\SmartServerAppQA\src\com\moinee\crtapp\views\StartUp.mxml:1216]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at HTTPOperation/http://www.adobe.com/2006/flex/mx/internal::dispatchRpcEvent()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\http\HTTPService.as:993]
+	at mx.rpc::AbstractInvoker/http://www.adobe.com/2006/flex/mx/internal::resultHandler()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\AbstractInvoker.as:318]
+	at mx.rpc::Responder/result()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\Responder.as:56]
+	at mx.rpc::AsyncRequest/acknowledge()[E:\dev\4.y\frameworks\projects\rpc\src\mx\rpc\AsyncRequest.as:84]
+	at DirectHTTPMessageResponder/completeHandler()[E:\dev\4.y\frameworks\projects\rpc\src\mx\messaging\channels\DirectHTTPChannel.as:451]
+	at flash.events::EventDispatcher/dispatchEventFunction()
+	at flash.events::EventDispatcher/dispatchEvent()
+	at flash.net::URLLoader/onComplete()

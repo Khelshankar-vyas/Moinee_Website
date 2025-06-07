@@ -1,0 +1,7 @@
+toGetModalForAddQuestion("+subTopicObjListArray[i].subtopicId+",'"+escapeSingleQuote(subTopicObjListArray[i].subtopicDisplayName)
+
+toGetModalForAddQuestion(subTopicID, subTopicDisplayName)
+
+toGetModalForAddQuestion(101523,'','inactive','update')
+
+function toGetModalForAddQuestion(relavantId,subTopicDname,reviewStatusText,action)

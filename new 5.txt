@@ -1,0 +1,17 @@
+global.js
+cookie.js
+util.js
+dropDownUtils.js
+qa.js
+search_util.js
+quiz.js
+search_board.js
+activities_board.js
+report.js
+structure.js
+createManageQuiz.js
+createManageNewAssignment.js
+reviewQuestions.js
+accessAllow.js
+jfontsize
+jqmath

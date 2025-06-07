@@ -1,0 +1,5 @@
+INSERT INTO 
+ projects(name, start_date, end_date)
+VALUES
+('कॉलेज शिक्षा','Implemented'),
+('कॉलेज शिक्षा','Implemented'),

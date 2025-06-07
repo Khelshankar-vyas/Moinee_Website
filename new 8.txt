@@ -1,0 +1,5 @@
+activity___grade7___science___sci_animal_class_01__data.xml
+activity___grade7___science___sci_animal_class_01__data-np.xml
+
+3 Underscore before folder name
+2 Underscore before file name
