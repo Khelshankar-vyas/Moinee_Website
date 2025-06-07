@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Moinee Foundation - Resources</title>
+
+
+	<!-- Include our stylesheet -->
+	<link href="assets/css/styles.css" rel="stylesheet"/>
+
+</head>
+<body>
+	<!--<<h1 style="color:white;" align="center">Learning Outcomes Content</h1>-->
+	<style>
+* {box-sizing: border-box;}
+nav {
+   overflow: hidden;
+   background-color: rgb(71, 179, 221);
+   padding-left: 50px;
+   top: 0;
+   
+}
+
+nav p{
+   float: left;
+}
+
+.footer
+{
+   overflow: hidden;
+   background-color: #373743;
+   padding: 10px;
+   position: fixed;
+   bottom: 0;
+}
+.links {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   color:white;
+   text-align: center;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 25px;
+   border-radius: 4px;
+}
+.links2 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   position : fixed;
+   bottom:0;
+   color:white;
+   text-align: center;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 25px;
+   border-radius: 4px;
+}
+nav .logo {
+   font-size: 25px;
+   font-weight: bold;
+}
+/*nav .links:hover {
+   background-color: rgb(214, 238, 77);
+   color: rgb(42, 10, 94);
+}*/
+nav .selected {
+   background-color: dodgerblue;
+   color: white;
+}
+.rightSection {
+   float: right;
+}
+@media screen and (max-width: 870px) {
+   nav .links {
+      float: none;
+      display: block;
+      text-align: left;
+   }
+   div .links {
+      float: none;
+      display: block;
+      text-align: left;
+   }
+   .rightSection {
+      float: none;
+   }
+}
+</style>
+<nav>
+<a href="http://www.moinee.org"><p class="links logo" href="https://www.moinee.org" target="_self"><img alt="Moinee foundation" width="275" height="50" data-sticky-width="270"
+   data-sticky-height="45" src="img/mf logo.jpg"></p></a>
+
+<!--<div class="rightSection">
+<a class="selected links" href="h">Home</a>
+<a class="links" href="#">Contact Us</a>
+<a class="links" href="#">About Us</a>
+<a class="links" href="#">More Info</a>
+<a class="links" href="#">Register</a>-->
+</nav>
+	<div class="filemanager">
+
+		<div class="search">
+			<input type="search" placeholder="Find a file.." />
+		</div>
+        <h1 style="text-align: center;"><u>RESOURCES SECTION</u></h1>
+		<div class="breadcrumbs"></div>
+
+		<ul class="data"></ul>
+
+		<div class="nothingfound">
+			<div class="nofiles"></div>
+			<span>No files here.</span>
+		</div>
+
+	</div>
+
+	<!--<footer>
+        <a class="tz" href="http://tutorialzine.com/2014/09/cute-file-browser-jquery-ajax-php/">Learning Outcomes</a>
+        <div id="tzine-actions"></div>
+        <span class="close"></span>
+    </footer>-->
+    
+
+	<!-- Include our script files -->
+	<script src="jquery.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <title>Moinee Foundation - Resources</title>
+
+    <!-- Include our stylesheet -->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Web Fonts  -->
+    <link
+      id="googleFonts"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: "Poppins", Arial, sans-serif;
+      }
+
+      .navbar {
+        background-color: rgb(71, 179, 221);
+        top: 0;
+        height: 65px;
+      }
+
+      .nav-container {
+        width: 92%;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav-container img {
+        width: 275px;
+        height: 50px;
+      }
+
+      nav .logo {
+        font-size: 25px;
+
+        padding-top: 5px;
+      }
+
+      .nav-links ul {
+        list-style-type: none;
+
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .nav-links a {
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        color: white;
+      }
+
+      .nav-links a:hover,
+      .nav-links a:active {
+        color: #007bff;
+      }
+
+      .dropdown {
+        position: relative;
+        /* display: none; */
+      }
+
+      .dropdown-content {
+        display: none;
+
+        position: absolute;
+        z-index: 1;
+        top: 150%;
+
+        background-color: white;
+        color: black;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        min-width: 220px;
+        padding: 2px 0;
+        font-weight: 500;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown-content a {
+        color: black;
+
+        padding: 12px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .icon {
+        display: none;
+        background: #0088cc;
+        color: white;
+        font-size: 23px !important;
+        padding: 12px 8px;
+        margin: 24px 16px;
+        text-decoration: none;
+        border-radius: 2px;
+      }
+
+      @media screen and (max-width: 870px) {
+        .nav-links ul {
+          display: none;
+        }
+
+        .nav-links .icon {
+          display: block;
+          float: right;
+          margin: 5px;
+
+          font-size: 20px;
+          transform: scale(0.8, 0.8);
+        }
+
+        .nav-links .icon:hover {
+          color: #fff;
+
+          box-shadow: inset 0 0 0 1px #fff;
+        }
+
+        .navbar {
+          position: relative;
+        }
+
+        .nav-container {
+          width: 80%;
+        }
+
+        .nav-container img {
+          width: 192px;
+          height: 34px;
+        }
+        .responsive ul {
+          display: block;
+          position: absolute;
+          top: 70px;
+          left: 0;
+          right: 0;
+          width: 100%;
+          background-color: white;
+          padding: 10px;
+          height: auto;
+          z-index: 2;
+        }
+
+        .responsive ul li {
+          padding: 10px;
+          display: block;
+          border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+          text-align: center;
+        }
+
+        .responsive ul li:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        .responsive ul li a {
+          color: black;
+        }
+      }
+    </style>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="http://www.moinee.org"
+          ><p class="links logo" href="https://www.moinee.org" target="_self">
+            <img
+              alt="Moinee foundation"
+              data-sticky-width="270"
+              data-sticky-height="45"
+              src="img/mf logo.jpg"
+            /></p
+        ></a>
+
+        <div class="nav-links" id="myNav-links">
+          <ul>
+            <li><a href="../index.php">Home</a></li>
+
+            <li class="dropdown">
+              <a href="../about-us.php">About Us</a>
+              <div class="dropdown-content">
+                <a href="../about-us.php#board">Team</a>
+                <a href="../awards.php">Awards and Recognition</a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a href="/resources/index.html">Resources</a>
+              <div class="dropdown-content">
+                <a href="/resources/files/Annual Reports/">Annual Reports</a>
+                <a href="/resources/files/Flyers/">Flyers</a>
+                <a href="/resources/files/Media Reports/">Media Reports</a>
+                <a href="/resources/files/Reference Manuals/"
+                  >Reference Manuals</a
+                >
+                <a href="../videoGrid.php">Videos</a>
+              </div>
+            </li>
+            <li><a href="../index.php#footer">Contact</a></li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+            >&#9776;</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="filemanager">
+      <div class="search">
+        <input type="search" placeholder="Find a file.." />
+      </div>
+      <h1 style="text-align: center"><u>Resources Section</u></h1>
+      <div class="breadcrumbs"></div>
+
+      <ul class="data"></ul>
+
+      <div class="nothingfound">
+        <div class="nofiles"></div>
+        <span>No files here.</span>
+      </div>
+    </div>
+
+    <!--<footer>
+        <a class="tz" href="http://tutorialzine.com/2014/09/cute-file-browser-jquery-ajax-php/">Learning Outcomes</a>
+        <div id="tzine-actions"></div>
+        <span class="close"></span>
+    </footer>-->
+
+    <!-- Include our script files -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myNav-links");
+        if (x.className === "nav-links") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav-links";
+        }
+      }
+    </script>
+
+    <script src="jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
